@@ -13,7 +13,7 @@ const ListTask = ({tasks}) => {
                         <Card 
                             key={index}
                             className='fc-event'
-                            title={singleTask.Name}
+                            title={singleTask.nombre}
                             id={singleTask.idus}
                             color={singleTask.color}
                             sx={{
